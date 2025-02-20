@@ -31,4 +31,46 @@ body {
   font-size: 20px;
   text-align: center;
   margin-top: 30px;
+}
+
+#boxs {
+  padding: 40px 0;
+}
+#boxs .box {
+  display: flex;
+  justify-content: space-around;
+}
+#boxs .box .minibox {
+  width: 200px;
+  height: 100px;
+  background-color: #8e508a;
+  border-radius: 3px;
+  transition: 2s;
+}
+#boxs .box .minibox:hover {
+  background-color: #594e5c;
+  border: 5px solid #8e508a;
+}
+#boxs .box .minibox h1 {
+  color: white;
+  font-size: 22px;
+  text-align: center;
+  margin-top: 10px;
+}
+@media screen and (max-width: 800px) {
+  #boxs .box .minibox {
+    width: 100px;
+    height: 50px;
+    background-color: #4f8cca;
+  }
+}
+@media screen and (max-width: 500px) {
+  #boxs .box .minibox {
+    width: 50px;
+    height: 30px;
+    background-color: #611616;
+  }
+  #boxs .box .minibox h1 {
+    font-size: 10px;
+  }
 }/*# sourceMappingURL=style.css.map */
