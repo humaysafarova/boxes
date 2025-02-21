@@ -127,4 +127,24 @@ body {
 #hi .box .miniboxf {
   position: absolute;
   left: 320px;
+}
+
+#help {
+  padding: 40px 0;
+}
+#help .box .minibox, #help .box .miniboxt {
+  width: 250px;
+  height: 150px;
+  padding-top: 45px;
+  margin-bottom: 15px;
+  background-color: #578c43;
+}
+#help .box .minibox h1, #help .box .miniboxt h1 {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+#help .box .miniboxt {
+  position: absolute;
+  left: 320px;
 }/*# sourceMappingURL=style.css.map */
