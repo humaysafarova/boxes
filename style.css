@@ -107,4 +107,24 @@ body {
     text-align: center;
     margin-bottom: 50px;
   }
+}
+
+#hi {
+  padding: 40px 0;
+}
+#hi .box .minibox, #hi .box .miniboxf {
+  width: 250px;
+  height: 150px;
+  padding-top: 45px;
+  background-color: #1c6796;
+  margin-bottom: 15px;
+}
+#hi .box .minibox h1, #hi .box .miniboxf h1 {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+#hi .box .miniboxf {
+  position: absolute;
+  left: 320px;
 }/*# sourceMappingURL=style.css.map */
